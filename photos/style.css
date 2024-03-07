@@ -1,0 +1,204 @@
+.h-image{
+    display: flex;
+    gap: 80px;
+}
+
+
+#icon{
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+    color: blue;
+}
+
+.con1{
+    display: flex;
+    margin-left: 70px;
+    
+}
+
+#pic{
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+    color: blue;
+
+}
+
+.ph{
+    display:flex;
+    margin-left: 70%;
+
+}
+
+.navbar{
+    display: flex;
+    gap: 80px;
+    padding: 40px;
+
+
+}
+.con2{
+    width: 50%;
+    
+    background-image: url("https://empire-s3-production.bobvila.com/articles/wp-content/uploads/2022/02/The-Best-Long-Distance-Moving-Companies-Options.jpg");
+
+}
+.dev1{
+    text-align:center;
+
+}
+.transport{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    
+}
+.input{
+    width: 100px;
+    height: 100px;
+}
+.video{
+    display: flex;
+}
+
+#i{
+    justify-items: center;
+    padding-left: 400px;
+}
+.services{
+    display: flex;
+}
+#choose{
+    margin-left: 20%;
+
+}
+.padd{
+    background-color: orange;
+    color: beige;
+}
+.spe{
+    background: rgb(169, 169, 190);
+}
+
+#t1{
+    width: 40px;
+    border-radius: 50%;
+}
+.speech{
+    display: flex;
+    gap: 80px;
+
+}
+.testo{
+    text-align: center;
+}
+.Article{
+    display: flex;
+}
+.end{
+    display: flex;
+background-color: orange;
+}
+#btn{
+   background: black; 
+   color: antiquewhite;
+}
+.foot{
+    display: flex;
+    gap: 30px;
+    
+    background-color: black;
+    color: azure;
+}
+.icofoot{
+    width: 20%;
+}
+.f-con{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 300px;
+}
+#b{
+    background-color: orange;
+    padding: 12px ;
+}
+#e{
+    border: none;
+}
+.news{
+    align-content: center;
+}
+.form{
+    padding: 11px 12px;
+    gap: 10px;
+    background-color: rgb(28, 87, 124);
+}
+.btn{
+    background-color: orange;
+    padding: 10px;
+}
+.enput{
+    padding: 10px;
+}
+.orange{
+    color: orange;
+}
+.unique{
+    background-color: rgb(83, 83, 173);
+    color: aliceblue;
+    height: 300px;
+}
+
+@media screen and (min-width: 1024px) {
+    .gfg-div {
+        background-color: #63c971;
+        color: #fff;
+    }
+}
+/* For Tablet View */
+@media screen and (min-device-width: 768px) 
+    and (max-device-width: 1024px) {
+    
+    }
+    /* For Mobile Landscape View */
+@media screen and (max-device-width: 640px) 
+    and (orientation: landscape) {
+    .gfg-div {
+        width: 400px;
+        height: 200px;
+        
+        
+}
+
+@media screen
+    and (max-device-width: 640px) {
+    .gfg-div {
+        width: 400px;
+        height: 200px;
+        
+        
+    }
+}
+
+@media screen and (min-device-width: 320px) 
+    and (-webkit-min-device-pixel-ratio: 2) {
+    .gfg-div {
+        width: 400px;
+        height: 400px;
+        
+        
+    }
+}
+
+@media (device-height: 568px) 
+    and (device-width: 320px) 
+    and (-webkit-min-device-pixel-ratio: 2) {
+    .gfg-div {
+        width: 400px;
+        height: 400px;
+        
+        
+    } 
+}
+}
+
